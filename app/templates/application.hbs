@@ -1,3 +1,8 @@
 <h2 id="title">Welcome to Ember.js</h2>
 
+{{format-message (intl-get 'product.info')
+    product='Apple watch'
+    price=200
+    deadline=yesterday}}
+
 {{outlet}}
